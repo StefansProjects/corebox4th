@@ -5,7 +5,7 @@
 ## General remarks
 
 - The case has a high-quality feel.
-- All ports are located on the bakc of the case
+- All ports are located on the back of the case
 - The fan produces a perceptible noise even on no / low load.
 - The BIOS feels very quirky.
 - There seems to be no official source for (windows) drivers or even BIOS updates. So if you have to reinstall Windows from scratch, you might have a problem.
