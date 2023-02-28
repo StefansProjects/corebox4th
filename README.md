@@ -11,7 +11,7 @@
 - There seems to be no official source for (windows) drivers or even BIOS updates. So if you have to reinstall Windows from scratch, you might have a problem.
 - Its easy to open the case, its just four screws at the bottom of the housing. The only serviceable part seems to be the NVMe SSD.
 
-## Install linux on the CHUWI CoreBox 4th
+## Installing Linux on the CHUWI CoreBox 4th
 
 This was tested with Ubuntu 22.10. Main problem was the BIOS giving me a hard time to boot anything but the default Windows installation. The BIOS seems to have problems to properly power-up all peripherals in-time, especially bootable USB-devices.
 
@@ -27,9 +27,9 @@ After getting the box to boot from USB, further Linux installation was no proble
 
 As far as tested, Ubuntu 22.10 works perfectly on the CHUWI CoreBox 4th.
 - System reliable enters and leaves standby.
-- Wake-on LAN works.
+- LAN and Wake-on LAN works.
 - Bluetooth and Wifi works.
-- I haven`t tested the USB-4 port but as a USB port, so I cannot comment on Thunderbolt functionality. But there is a [support forum entry](https://forum.chuwi.com/t/egpu-thunderbolt-problem-on-corebox-4th-does-not-work/37378), indicating that Thunderbolt does not fully work (even) on windows.
+- I haven`t tested the USB-4 port but as a USB port, so I cannot comment on Thunderbolt functionality. But there is a [support forum entry](https://forum.chuwi.com/t/egpu-thunderbolt-problem-on-corebox-4th-does-not-work/37378), indicating that Thunderbolt does not fully work (even) on Windows.
 
 There were some problems with a NVMe drive (Kingston 256GB), containing Linux, transplanted from another mini pc to the corebox. After each shutdown, the first boot results in kernel errors stating problems with the SSD. Another try immediately afterwards usually succeeds. This problem never came up with the build-in SSD, so it could be a problem of the specific SSD but also indicate further problems with the BIOS.
 
