@@ -15,9 +15,9 @@
 
 This was tested with Ubuntu 22.10. Main problem was the BIOS giving me a hard time to boot anything but the default Windows installation. The BIOS seems to have problems to properly power-up all peripherals in-time, especially bootable USB-devices.
 
-| Problem  | Solution |
-| ------------- | ------------- |
-| Enter BIOS    | Press `F2` button during on powerup |
+| Problem                                      | Solution                                                     |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| Enter BIOS                                   | Press `F2` button during on powerup                          |
 | BIOS does not recognize bootable USB sticks  | Use a self-powered USB hub in-between corebox and USB stick  |
 | After successfully booting from USB stick and removing it again, corebox does not boot at all, anymore | Once the USB stick was recognized as bootable media, the corebox seems to reject to boot without it. Its even not possible to enter BIOS setup. So attach the USB stick again (remember self-powered USB hub), power up again, enter the BIOS, and **disable** boot from USB   |
 
@@ -26,6 +26,7 @@ After getting the box to boot from USB, further Linux installation was no proble
 ## Working with Linux on the CHUWI CoreBox 4th
 
 As far as tested, Ubuntu 22.10 works perfectly on the CHUWI CoreBox 4th.
+
 - System reliable enters and leaves standby.
 - LAN and Wake-on LAN works.
 - Bluetooth and Wifi works.
