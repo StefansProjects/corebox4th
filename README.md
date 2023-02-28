@@ -4,7 +4,12 @@
 
 ## General remarks
 
-The case has a high-quality feel. Unfortunately all ports are at the back. The fan produces a perceptible noise even on low / no load. The BIOS feels very quirky. There seems to be no official source for (windows) drivers or even BIOS updates. So if you have to reinstall Windows you might have a big problem. Its easy to open the case, its just four screws at the bottom of the housing.
+- The case has a high-quality feel.
+- All ports are located on the bakc of the case
+- The fan produces a perceptible noise even on no / low load.
+- The BIOS feels very quirky.
+- There seems to be no official source for (windows) drivers or even BIOS updates. So if you have to reinstall Windows from scratch, you might have a problem.
+- Its easy to open the case, its just four screws at the bottom of the housing. The only serviceable parts seems to be the NVMe SSD.
 
 ## Install linux on the CHUWI CoreBox 4th
 
@@ -25,5 +30,5 @@ There were some problems with a NVMe drive (Kingston 256GB) containing Linux tra
 
 ## Further resources
 
-The user [Wolfix on the official support forums](https://forum.chuwi.com/t/4-pin-fan-adapter-chuwi-corebox-4th/36928) found the required connector and wiring to change the fan.
-The user [ManuCE on the official support forums](https://forum.chuwi.com/t/corebox-4th-driver-win-11/36673) collected all the windows drivers.
+- The user [Wolfix on the official support forums](https://forum.chuwi.com/t/4-pin-fan-adapter-chuwi-corebox-4th/36928) found the required connector and wiring to change the fan.
+- The user [ManuCE on the official support forums](https://forum.chuwi.com/t/corebox-4th-driver-win-11/36673) collected all the windows drivers.
