@@ -19,9 +19,9 @@ This was tested with Ubuntu 22.10. Main problem was the BIOS giving me a hard ti
 | -------------------------------------------- | ------------------------------------------------------------ |
 | Enter BIOS                                   | Press `F2` button during on powerup                          |
 | BIOS does not recognize bootable USB sticks  | Use a self-powered USB hub in-between corebox and USB stick  |
-| After successfully booting from USB stick and removing it again, corebox does not boot at all, anymore | Once the USB stick was recognized as bootable media, the corebox seems to reject to boot without it. Its even not possible to enter BIOS setup. So attach the USB stick again (remember self-powered USB hub), power up again, enter the BIOS, and **disable** boot from USB   |
+| After successfully booting from USB stick, with self-powered USB, hub and removing it again, corebox does not boot at all, anymore | Remove the self-powered USB hub completely or keep the bootable stick attached forever. This seems to be a weird error in the BIOS, that if it sees an USB hub it definitly needs a bootable USB device, even if booting from USB is disabled in the BIOS.  |
 
-After getting the box to boot from USB, further Linux installation was no problem at all. Just remember to disable boot from USB afterwards.
+After getting the box to boot from USB, further Linux installation was no problem at all.
 
 ## Working with Linux on the CHUWI CoreBox 4th
 
